@@ -6,7 +6,7 @@
         "use": "@vercel/node",
         "config": {
             "commands": [
-              "npm install --force"
+              "npm install --legacy-peer-deps"
             ]
         }
       }
