@@ -4,9 +4,11 @@
       {
         "src": "/src/index.js",
         "use": "@vercel/node",
-        "commands": [
-          "npm install --force"
-        ]
+        "config": {
+            "commands": [
+              "npm install --force"
+            ]
+        }
       }
     ],
     "routes": [
